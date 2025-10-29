@@ -5,10 +5,11 @@
 
     --h1-bg: #E6BEAE;
     --h1-text: #000000;
-    --h2-text: #74A9CB;
-    --h2-bg: var(--h1-text);
-    --h2-border: var(--h1-bg);
-    --h3-text: #D67160;
+    --H1-border: #E9DE79;
+    --h2-text:var(--h1-text);
+    --h2-bg: var(--h1-bg);
+    --h2-border: #E9DE79;
+    --h3-text: var(--h1-text);
 
     --list-bg: #e8f8f0;
     --list-border: #A1D69A;
@@ -51,12 +52,46 @@ text-decoration: none;
 nav a:hover {
 text-decoration: underline;
 }
+header{
+ h1{
+    text-align: center;
+background-color:var(--h1-bg);
+} 
 
-h1 {
-    background-color: var(--h1-bg);
-color:var(--h1-text)
 }
-  
+main{
+h1 {
+    
+color:var(--h1-text);
+background-color: #b3fffc;
+
+
+}
+h2{
+
+    color:var(--h1-text);
+    background-color: #b3fffc;
+}
+h3{
+    background-color: #b3fffc;
+    color:var(--h1-text);
+}
+h4{
+    background-color: #b3fffc;
+    color:var(--h1-text);
+}
+  p{
+ background-color: #b3fffc;
+ color:var(--h1-text);
+
+  }
+}
+footer{
+    h3{
+        background-color: #33673b;
+        color:#b3fffc;
+    }
+}
 header{
     grid-area:header;
    
