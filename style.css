@@ -38,6 +38,7 @@
         'footer';
         grid-template-columns:1fr ;
         grid-template-rows: 1fr ;
+        
 
     }
 
@@ -55,43 +56,43 @@ text-decoration: underline;
 header{
  h1{
     text-align: center;
-background-color:var(--h1-bg);
-} 
+    
 
+} 
+background-color:var(--h1-bg);
 }
 main{
 h1 {
     
 color:var(--h1-text);
-background-color: #b3fffc;
-
-
 }
 h2{
 
     color:var(--h1-text);
-    background-color: #b3fffc;
+  
 }
 h3{
-    background-color: #b3fffc;
+
     color:var(--h1-text);
 }
 h4{
-    background-color: #b3fffc;
+
     color:var(--h1-text);
 }
   p{
- background-color: #b3fffc;
+
  color:var(--h1-text);
 
   }
 }
 footer{
     h3{
-        background-color: #33673b;
-        color:#b3fffc;
+    
+        color:#000000;
     }
+    background-color:var(--h1-bg);
 }
+
 header{
     grid-area:header;
    
