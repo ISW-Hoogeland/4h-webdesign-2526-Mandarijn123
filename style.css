@@ -62,6 +62,8 @@ header{
 background-color:var(--h1-bg);
 }
 main{
+    height:100vh;
+
 h1 {
     
 color:var(--h1-text);
