@@ -62,7 +62,7 @@ header{
 background-color:var(--h1-bg);
 }
 main{
-    height:100vh;
+    height:1000vh;
 
 h1 {
     
@@ -107,4 +107,7 @@ main{
 }
 footer{
     grid-area:footer;
+}
+img{
+    width: 900px;
 }
