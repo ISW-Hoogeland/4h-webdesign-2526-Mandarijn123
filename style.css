@@ -109,5 +109,16 @@ footer{
     grid-area:footer;
 }
 img{
-    width: 900px;
+    width: 90px; 
+}
+table {
+border-collapse: collapse
+ 
+}
+thead th {
+background-color: #E6BEAE;
+color: black
+}
+tbody td {
+border: 1px solid #E6BEAE;
 }
