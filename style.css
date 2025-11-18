@@ -37,7 +37,7 @@
         'main'
         'footer';
         grid-template-columns:1fr ;
-        grid-template-rows: 1fr ;
+        grid-template-rows:1fr;
         
 
     }
@@ -93,6 +93,7 @@ footer{
         color:#000000;
     }
     background-color:var(--h1-bg);
+
 }
 
 header{
@@ -109,7 +110,10 @@ footer{
     grid-area:footer;
 }
 img{
-    width: 90px; 
+    width: 400px; 
+    margin:20px;
+
+    
 }
 table {
 border-collapse: collapse
